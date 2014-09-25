@@ -17,7 +17,7 @@ namespace Water125
         {
             if (!Page.IsPostBack)
             {
-                BiudTree();
+               
 
                 if (Request.Params["id"] != null && Request.Params["id"].Trim() != "")
                 {
